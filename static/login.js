@@ -1,6 +1,6 @@
 login = function login(e){
   if (this.user && this.pass){
-    axios.post('http://127.0.0.1:5000/login', {
+    axios.post(apiPatch + '/login', {
       username: this.user,
       password: this.pass
     })
@@ -20,7 +20,7 @@ register = function register(e){
   this.errorMessage = ''
   if (this.user && this.pass){
     this.errorMessage = ''
-    axios.post('http://127.0.0.1:5000/register', {
+    axios.post(apiPatch + '/register', {
       'username': this.user,
       'password': this.pass
     }).then(response => {
