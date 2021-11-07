@@ -7,7 +7,7 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 app.register_blueprint(bp)
 app.config['SECRET_KEY'] = 'secret-key-asdasjdhasduy'
 app.cli.add_command(commands.create_db)
