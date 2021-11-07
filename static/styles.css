@@ -1,0 +1,43 @@
+.pokeball-img {
+    width: 200px;
+    height: 200px;
+    top: -100px;
+    position: absolute;
+}
+
+
+
+.pokeball-container {
+    height: 170px;
+    background-color: #E3350D;
+}
+
+.card-login {
+    width: 500px;
+    margin-top: 200px;
+}
+
+.card-title-login {
+    align-self: flex-end;
+    color: white;
+    font-size: xxx-large;
+    font-family: 'Eviolite', sans-serif;
+}
+
+.btn-po {
+    background-color: #E3350D !important;
+    border-color: #E3350D !important;
+}
+
+.nav {
+    background-color: #E3350D !important;
+}
+
+.bage-legendary {
+    background-color: #ffc107;
+    color: #222 !important;
+}
+
+.bage-type {
+    background-color: #E3350D;
+}
