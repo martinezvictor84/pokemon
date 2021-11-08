@@ -67,6 +67,7 @@ function beforePage(){
 
 function applyFilter(){
     delete  this.filter.is_legendary;
+    this.page = 0;
     if (this.is_legendary){
         this.filter.is_legendary = 1;
     }

@@ -1,4 +1,4 @@
-#Pokedex- Autolab
+# Pokedex- Autolab
 Proyecto desarrollado con Flask, costa de un Api que permite consultar los pokemons aplicando filtros y un cliente hecho con vueJs que permite visualizar la informacion.
 el proyecto se encuentra desplegado en una instacia de ec2 de aws puede probarlo aqui http://ec2-54-146-183-65.compute-1.amazonaws.com:5000/static/login.html
 
